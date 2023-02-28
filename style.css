@@ -191,7 +191,8 @@ section .title::after {
 /* home section styling */
 .home {
   display: flex;
-  background: url("https://preview.colorlib.com/theme/hiroto/img/home-room/hr-1.jpg") no-repeat center;
+  background: url("https://preview.colorlib.com/theme/hiroto/img/home-room/hr-1.jpg")
+    no-repeat center;
   background: url("./images/121.jpg") no-repeat center;
   height: 100vh;
   color: #fff;
@@ -250,9 +251,9 @@ section .title::after {
 }
 
 /* ------------------ about section styling --------------------- */
-.about .title::after {
-  content: "who i am";
-}
+/* .about .title::after {
+  content: "who I am";
+} */
 
 .about-content {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -338,11 +339,11 @@ section .title::after {
 }
 
 .projects .title::after,
-.teams .title::after {
+/* .teams .title::after {
   background: #111;
   margin-top: 10px;
   content: "what i have built";
-}
+} */
 
 .projects .serv-content {
   display: grid;
@@ -417,13 +418,6 @@ section .title::after {
   width: 100%;
 }
 
-
-
-
-
-
-
-
 /* ------------------- skills section styling --------------------*/
 
 .skills .title::after {
@@ -436,7 +430,6 @@ section .title::after {
 
 .skills .skills-content .left .text,
 .right .bars .text {
-
   text-decoration: underline;
   font-size: 20px;
   font-weight: 600;
@@ -525,13 +518,10 @@ section .title::after {
   width: 70%;
 }
 
-
-
-
 /* ---------------------- teams section styling ------------------------ */
-.teams .title::after {
-  content: "who i use";
-}
+/* .teams .title::after {
+  content: "who I use";
+} */
 
 .teams .carousel .card {
   background: #222;
@@ -607,18 +597,30 @@ section .title::after {
 /* .github {
 } */
 
-.github .title::after {
+/* .github .title::after {
   content: "what I did";
-}
+} */
 
 .github .calendar {
   width: 100%;
   padding-top: 30px;
   border: none;
 }
-
-
-
+.github .stats1 {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid; */
+}
+.github .stats1 .stats {
+  /* display: flex; */
+  margin: 5px 0;
+  /* justify-content: space-between; */
+  border: 1px solid grey;
+  /* width: 30%; */
+}
+/* @media (max-width: 60%) {
+  
+} */
 /* ---------------------- contact section styling -------------*/
 .contact .title::after {
   content: "get in touch";
@@ -778,8 +780,6 @@ footer span a:hover {
   /* .max-width {
     padding: 0 50px;
   } */
-
-
 }
 
 @media (max-width: 947px) {
@@ -885,6 +885,12 @@ footer span a:hover {
     padding-top: 30px;
     border: none;
   }
+  .github .stats1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+  }
 }
 
 @media (max-width: 690px) {
@@ -907,11 +913,9 @@ footer span a:hover {
   .projects .serv-content {
     grid-template-columns: repeat(1, 1fr);
   }
-
 }
 
 @media (max-width: 580px) {
-
   .about .about-content .right .text span:nth-child(1) {
     display: block;
   }
@@ -919,12 +923,9 @@ footer span a:hover {
   .about .about-content .right {
     padding: 5%;
   }
-
-
 }
 
 @media (max-width: 500px) {
-
   .about .about-content .right .text span:nth-child(1) {
     display: block;
   }

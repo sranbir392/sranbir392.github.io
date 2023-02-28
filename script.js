@@ -77,3 +77,17 @@ $(document).ready(function () {
     },
   });
 });
+function downloadFile(path, fileName) {
+  const link = document.createElement("a");
+  link.style.display = "none";
+
+  link.href = path;
+
+  link.download = fileName;
+
+  document.body.appendChild(link);
+
+  link.click();
+
+  document.body.removeChild(link);
+}

@@ -50,9 +50,12 @@
  padding-top: 20px;
  @media screen and (max-width:1100px) {
   width: 100%;
+
  }
 }
 .text>h1{
+  font-size: 26px;
+font-weight: 900;
  @media screen and (max-width:1100px) {
  text-align: center;
 
@@ -60,11 +63,12 @@
 }
 .text>p{
 width: 90%;
-font-size: 17px;
+font-size: 20px;
 margin-top: 20px;
 @media screen and (max-width:1100px) {
  text-align: center;
  margin: auto;
  margin-top: 20px;
+ font-size: 16px;
 }
 }

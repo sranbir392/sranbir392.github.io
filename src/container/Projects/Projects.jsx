@@ -51,7 +51,7 @@ const projects=[
   desc:"A clone of famouse e-commerce website - Nature's Basket",
   tech:"HTML, CSS, JavaScript",
   git:"https://github.com/sranbir392/Nature-s-Basket",
-  deploy:"https://golden-figolla-81a3b0.netlify.app/"
+  deploy:"https://naturesbasketclone.vercel.app/"
 },
 ]
 

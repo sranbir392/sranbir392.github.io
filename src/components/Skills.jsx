@@ -118,7 +118,7 @@ const Skills = () => {
          backgroundImage={"linear-gradient(0deg, #4039a7, #d647db)"}
          backgroundClip={"text"}
          color={"transparent"}
-        fontSize={{base:"20px",md:"23px",lg:"39px"}} fontWeight={900} mb={{base:"10px",md:"17px",lg:"22px"}}>1 year of Experience</Heading>
+        fontSize={{base:"20px",md:"23px",lg:"39px"}} fontWeight={900} mb={{base:"10px",md:"17px",lg:"22px"}}>6 Months of Experience</Heading>
         <Grid
           className={projectStyle.cards}
         justifyContent={"center"}
@@ -149,12 +149,12 @@ const Skills = () => {
                   </Center>
                   <Center
                     // color={"#fff"}
-                    fontWeight={200}
-                    fontSize={{ base: "15px", md: "17px", lg: "20px" }}
+                    fontWeight={400}
+                    fontSize={{ base: "15px", md: "17px", lg: "21px" }}
                   >
                     {el.role}
                   </Center>
-                  <Text textAlign={"center"} fontSize={{base:"12px",md:"13px",lg:"14px"}} width={{base:"200px",md:"250px",lg:"200px"}} >{el.summary}</Text>
+                  <Text textAlign={"center"} fontSize={{base:"12px",md:"13px",lg:"15px"}} width={{base:"200px",md:"250px",lg:"270px"}} >{el.summary}</Text>
                 </Box>
               </Box>
               )

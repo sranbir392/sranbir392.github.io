@@ -24,7 +24,7 @@ const projects=[
 {
   image:images.trendymart,
   title:"Trendy Mart",
-  desc:"A clone of famouse e-commerce website - Blooming Dales",
+  desc:"Bloomingdale's Clone! Step into a virtual fashion paradise, mirroring the renowned luxury retailer.",
   tech:"React, JavaScript, Chakra UI, CSS, MongoDB, Express.js, Node.js",
   git:"https://github.com/sranbir392/TrendyMart",
   deploy:"https://trendy-mart.vercel.app/"
@@ -32,7 +32,7 @@ const projects=[
 {
   image:images.Formalclick,
   title:"Formal Click",
-  desc:"A clone of famouse e-commerce website - Tata Cliq",
+  desc:"An e-commerce web application based on the TATA Cliq official website. Primary product categories - Electronics, Fashion, Footwear, and Accessories.",
   tech:"React, JavaScript, Chakra UI, CSS, MongoDB, Express.js, Node.js",
   git:"https://github.com/sranbir392/Formal-Click",
   deploy:"https://formalclick.netlify.app/"
@@ -48,7 +48,7 @@ const projects=[
 {
   image:images.naturebasket,
   title:"Nature's Basket",
-  desc:"A clone of famouse e-commerce website - Nature's Basket",
+  desc:"Nature's Basket is one of the India's leading e-commerce platform for groceries and staples.",
   tech:"HTML, CSS, JavaScript",
   git:"https://github.com/sranbir392/Nature-s-Basket",
   deploy:"https://naturesbasketclone.vercel.app/"

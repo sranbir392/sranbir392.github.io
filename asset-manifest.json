@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4b8fd469.css",
-    "main.js": "/static/js/main.7e1db6d2.js",
+    "main.js": "/static/js/main.fafefded.js",
     "static/js/592.6d7de513.chunk.js": "/static/js/592.6d7de513.chunk.js",
     "static/media/formalclick.png": "/static/media/formalclick.08b87e752eccb0eb920a.png",
     "static/media/naturebasket.png": "/static/media/naturebasket.9d5db802e6bcd3bb1296.png",
@@ -13,7 +13,7 @@
     "static/media/Ranbir.png": "/static/media/Ranbir.5832beaeb8fead58321f.png",
     "static/media/prepleaf1.png": "/static/media/prepleaf1.5404358245b6ffec3e95.png",
     "static/media/typemaster.png": "/static/media/typemaster.0f6f1f9021792825b5a5.png",
-    "static/media/Ranbir_Singh_resume.pdf": "/static/media/Ranbir_Singh_resume.81e0442c66611fba1a80.pdf",
+    "static/media/Ranbir_Singh_resume.pdf": "/static/media/Ranbir_Singh_resume.b155a9236212f34d8dec.pdf",
     "static/media/node-js.png": "/static/media/node-js.120992e188a777dda66b.png",
     "static/media/html.png": "/static/media/html.145166f4cc938936e630.png",
     "static/media/mongodb.png": "/static/media/mongodb.5866cabfb5f1f0ff0376.png",
@@ -36,11 +36,11 @@
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "main.4b8fd469.css.map": "/static/css/main.4b8fd469.css.map",
-    "main.7e1db6d2.js.map": "/static/js/main.7e1db6d2.js.map",
+    "main.fafefded.js.map": "/static/js/main.fafefded.js.map",
     "592.6d7de513.chunk.js.map": "/static/js/592.6d7de513.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b8fd469.css",
-    "static/js/main.7e1db6d2.js"
+    "static/js/main.fafefded.js"
   ]
 }
